@@ -20,6 +20,32 @@ Building AI products, cloud-backed workflows, and software systems across automa
 
 ---
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Rakshitk2223/galaxy-profile/main/assets/generated/galaxy-header.svg" width="850" alt="Galaxy Header"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Rakshitk2223/galaxy-profile/main/assets/generated/stats-card.svg" width="850" alt="Mission Telemetry"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Rakshitk2223/galaxy-profile/main/assets/generated/tech-stack.svg" width="850" alt="Tech Stack"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Rakshitk2223/galaxy-profile/main/assets/generated/projects-constellation.svg" width="850" alt="Featured Projects"/>
+</div>
+
+<br/>
+
+---
+
 ## 🔭 Currently Working On
 
 - **Inference Engine** - Unified Python wrapper for vLLM, llama.cpp, Ollama, and Transformers
