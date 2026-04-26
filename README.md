@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey there! I'm Rakshit 👋
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=AI+Product+Engineer;Software+Builder;Multi-domain+Explorer" alt="Typing SVG" />
 
 **AI Product Engineer** | **Software Builder** | **Multi-domain Explorer**
 
@@ -23,7 +23,7 @@ Building AI products, cloud-backed workflows, and software systems across automa
 ## 🔭 Currently Working On
 
 - **Inference Engine** - Unified Python wrapper for vLLM, llama.cpp, Ollama, and Transformers
-- **LLM Council** - Multi-agent AI system
+- **LLM Council** - Multi-agent AI system  
 - **NoteHaven** - Your project
 
 ## 🛠️ Tech Stack
@@ -38,6 +38,16 @@ Building AI products, cloud-backed workflows, and software systems across automa
   <img src="https://github-readme-stats.vercel.app/api?username=Rakshitk2223&show_icons=true&theme=radical" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rakshitk2223&layout=compact&theme=radical" alt="Top Languages" />
 </div>
+
+---
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+  <img alt="github-snake" src="dist/github-snake.svg" />
+</picture>
 
 ---
 
