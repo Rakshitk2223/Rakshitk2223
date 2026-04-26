@@ -7,11 +7,17 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
 
       - uses: Platane/snk@v3
         with:
@@ -20,12 +26,10 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: snake-output
-          path: dist/
-
-      - uses: EndBug/add-and-commit@v9
-        with:
-          add: 'dist/*.svg'
-          message: 'Update contribution snake'
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --staged --quiet || git commit -m "Update contribution snake"
+          git push
